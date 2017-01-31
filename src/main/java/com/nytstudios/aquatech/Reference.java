@@ -14,8 +14,8 @@ public class Reference {
     public static final String SERVER_PROXY_CLASS = "com.nytstudios.aquatech.proxy.ServerProxy";
 
     public static enum AquaItems {
-        CORALDUST("coraldust", "ItemCoralDust");
-
+        CORALDUST("coraldust", "ItemCoralDust"),
+        CORALDUSTBLUE("coraldustblue", "ItemCoralDustBlue");
         private String unlocalizedName;
         private String registryName;
 
