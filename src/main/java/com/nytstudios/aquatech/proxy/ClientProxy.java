@@ -1,5 +1,7 @@
 package com.nytstudios.aquatech.proxy;
 
+import com.nytstudios.aquatech.block.ModBlocks;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -18,6 +20,7 @@ public class ClientProxy extends com.nytstudios.aquatech.proxy.CommonProxy {
     public void init(FMLInitializationEvent event)
     {
         NytItems.registerRenders();
+        ModBlocks.registerRenders();
     }
     @Override
     public void postInit(FMLPostInitializationEvent event)

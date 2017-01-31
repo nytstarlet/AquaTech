@@ -1,6 +1,7 @@
 package com.nytstudios.aquatech;
 
 
+import com.nytstudios.aquatech.block.ModBlocks;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -33,6 +34,7 @@ public class AquaTech
     {
         creativeTab = new com.nytstudios.aquatech.tab.CreativeTab(CreativeTabs.getNextID(), "tab_creative");
         NytItems.preInit();
+        ModBlocks.preInit();
         proxy.preInit(event);
     }
 
