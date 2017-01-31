@@ -1,5 +1,6 @@
 package com.nytstudios.aquatech.proxy;
 
+import com.nytstudios.aquatech.init.ModBlocks;
 import com.nytstudios.aquatech.init.ModItems;
 
 /**
@@ -13,5 +14,6 @@ public class ClientProxy implements CommonProxy{
     @Override
     public void init() {
         ModItems.registerRenders();
+        ModBlocks.registerRenders();
     }
 }

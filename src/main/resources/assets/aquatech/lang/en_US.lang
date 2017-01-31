@@ -6,3 +6,5 @@ itemGroup.tab_creative=AquaTech
 #Items
 item.coraldust.name=Coral Dust
 item.coraldustblue.name=Coral Dust Blue
+
+tile.compressedcoraldust.name=Compressed Coral Dust

@@ -1,5 +1,6 @@
 package com.nytstudios.aquatech;
 
+import com.nytstudios.aquatech.init.ModBlocks;
 import com.nytstudios.aquatech.init.ModItems;
 import com.nytstudios.aquatech.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -29,7 +30,8 @@ public class AquaTechMain {
 
         ModItems.init();
         ModItems.register();
-
+        ModBlocks.init();
+        ModBlocks.register();
     }
 
     @EventHandler
