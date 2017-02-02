@@ -40,8 +40,7 @@ public class AquaTechMain {
         ModBlocks.register();
         AquaFoods.init();
         AquaFoods.register();
-        AquaSeeds.init();
-        AquaSeeds.register();
+
 
 
 

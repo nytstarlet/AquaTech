@@ -9,7 +9,7 @@ public class Reference {
 
     public static final String MOD_ID = "aquatech";
     public static final String NAME = "AquaTech";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.3";
     public static final String ACCEPTED_VERSIONS = "1.10.2";
 
     public static final String CLIENT_PROXY_CLASS = "com.nytstudios.aquatech.proxy.ClientProxy";
@@ -66,7 +66,8 @@ public class Reference {
 
     public static enum AquaFoods{
 
-        CORALCHUNKS("coralchunks", "ItemCoralChunks");
+        CORALCHUNKS("coralchunks", "ItemCoralChunks"),
+        KELP("kelp", "Kelp");
 
 
 

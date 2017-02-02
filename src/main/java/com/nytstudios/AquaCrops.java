@@ -21,7 +21,6 @@ public class AquaCrops {
     public static HashMap<CropBlocks, Item> harvestedItemMap = new HashMap<CropBlocks, Item>();
 
 
-
     public static HashMap<CropBlocksSpecial, Item> seedsMapSpecial = new HashMap<CropBlocksSpecial, Item>();
 
     public static HashMap<CropBlocksSpecial, Item> harvestedItemMapSpecial = new HashMap<CropBlocksSpecial, Item>();
@@ -36,12 +35,21 @@ public class AquaCrops {
     public static void init() {
 
 
+        //BlueCoral = registerBlockCrop("BlueCoral");
 
-        BlueCoral = registerBlockCrop("BlueCoral");
+       // BlueCoralSeeds = regSeeds("BlueCoralSeeds", BlueCoral);
 
-        BlueCoralSeeds = regSeeds("BlueCoralSeeds", BlueCoral);
+        //BlueCoralChunks = regHarvestItem("BlueCoralChunks", BlueCoral);
 
-        BlueCoralChunks = regHarvestItem("BlueCoralChunks", BlueCoral);
+
+
+
+
+    }
+
+
 
 
 }
+
+

@@ -22,6 +22,7 @@ public class ModItems {
         coraldust = new ItemCoralDust();
         coraldustblue = new ItemCoralDustBlue();
         coralchunks = new ItemCoralChunks();
+
     }
 
 

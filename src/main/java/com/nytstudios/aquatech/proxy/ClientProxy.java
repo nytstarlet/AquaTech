@@ -19,7 +19,7 @@ public class ClientProxy implements CommonProxy{
         ModItems.registerRenders();
         ModBlocks.registerRenders();
         AquaFoods.registerRenders();
-        AquaSeeds.registerRenders();
+        //AquaSeeds.registerRenders();
 
 
 

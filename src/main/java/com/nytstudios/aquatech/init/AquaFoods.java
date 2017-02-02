@@ -2,6 +2,7 @@ package com.nytstudios.aquatech.init;
 
 
 
+import com.nytstudios.aquatech.crops.Kelp;
 import com.nytstudios.aquatech.items.ItemCoralChunks;
 import com.nytstudios.aquatech.items.ItemCoralDust;
 
@@ -17,11 +18,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class AquaFoods{
 
     //public static Item coralchunks;
+    public static Item kelp;
+
 
 
 
     public static  void init(){
-       // coralchunks = new ItemCoralChunks();
+       //coralchunks = new ItemCoralChunks();
+        kelp = new Kelp();
 
 
     }
@@ -29,11 +33,13 @@ public class AquaFoods{
 
     public static void register(){
         //GameRegistry.register(coralchunks);
+        GameRegistry.register(kelp);
 
     }
 
     public static void registerRenders(){
         //registerRender(coralchunks);
+        registerRender(kelp);
 
     }
 
