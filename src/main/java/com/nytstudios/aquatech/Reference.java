@@ -1,5 +1,7 @@
 package com.nytstudios.aquatech;
 
+
+
 /**
  * Created by Toph on 1/30/2017.
  */
@@ -16,6 +18,7 @@ public class Reference {
     public static enum AquaItems {
         CORALDUST("coraldust", "ItemCoralDust"),
         CORALDUSTBLUE("coraldustblue", "ItemCoralDustBlue");
+
         private String unlocalizedName;
         private String registryName;
 
@@ -39,11 +42,66 @@ public class Reference {
         COMPRESSEDCORALDUST("compressedcoraldust", "BlockCompressedCoralDust");
 
 
+
+
         private String unlocalizedName;
         private String registryName;
 
 
         AquaBlocks(String unlocalizedName, String registryName){
+            this.unlocalizedName = unlocalizedName;
+            this.registryName = registryName;
+
+        }
+        public String getUnlocalizedName(){
+            return unlocalizedName;
+        }
+
+        public String getRegistryName(){
+            return registryName;
+        }
+
+    }
+
+
+    public static enum AquaFoods{
+
+        CORALCHUNKS("coralchunks", "ItemCoralChunks");
+
+
+
+
+        private String unlocalizedName;
+        private String registryName;
+
+
+        AquaFoods(String unlocalizedName, String registryName){
+            this.unlocalizedName = unlocalizedName;
+            this.registryName = registryName;
+
+        }
+        public String getUnlocalizedName(){
+            return unlocalizedName;
+        }
+
+        public String getRegistryName(){
+            return registryName;
+        }
+
+    }
+
+    public static enum AquaSeeds{
+
+        BLUECORALSEEDS("bluecoralseed", "BlueCoralSeed");
+
+
+
+
+        private String unlocalizedName;
+        private String registryName;
+
+
+        AquaSeeds(String unlocalizedName, String registryName){
             this.unlocalizedName = unlocalizedName;
             this.registryName = registryName;
 

@@ -1,5 +1,8 @@
 package com.nytstudios.aquatech.proxy;
 
+import com.nytstudios.AquaCrops;
+import com.nytstudios.aquatech.init.AquaFoods;
+import com.nytstudios.aquatech.init.AquaSeeds;
 import com.nytstudios.aquatech.init.ModBlocks;
 import com.nytstudios.aquatech.init.ModItems;
 
@@ -15,5 +18,10 @@ public class ClientProxy implements CommonProxy{
     public void init() {
         ModItems.registerRenders();
         ModBlocks.registerRenders();
+        AquaFoods.registerRenders();
+        AquaSeeds.registerRenders();
+
+
+
     }
 }

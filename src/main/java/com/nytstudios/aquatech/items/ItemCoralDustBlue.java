@@ -1,5 +1,6 @@
 package com.nytstudios.aquatech.items;
 
+import com.nytstudios.aquatech.AquaTechMain;
 import com.nytstudios.aquatech.Reference;
 import net.minecraft.item.Item;
 
@@ -12,6 +13,7 @@ public class ItemCoralDustBlue extends Item {
     public ItemCoralDustBlue(){
         setUnlocalizedName(Reference.AquaItems.CORALDUSTBLUE.getUnlocalizedName());
         setRegistryName(Reference.AquaItems.CORALDUSTBLUE.getRegistryName());
+        setCreativeTab(AquaTechMain.CREATIVE_TAB);
     }
 
 }

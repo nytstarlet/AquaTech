@@ -1,0 +1,16 @@
+{
+  "variants":{
+
+    "age=0": {"model1": "aquatech:blue_coral0"},
+    "age=1": {"model1": "aquatech:blue_coral1"},
+    "age=2": {"model1": "aquatech:blue_coral2"},
+    "age=3": {"model1": "aquatech:blue_coral3"},
+    "age=4": {"model1": "aquatech:blue_coral4"},
+    "age=5": {"model1": "aquatech:blue_coral5"},
+    "age=6": {"model1": "aquatech:blue_coral6"},
+    "age=7": {"model1": "aquatech:blue_coral7"}
+
+
+
+  }
+}

@@ -1,8 +1,12 @@
 package com.nytstudios.aquatech;
 
+import com.nytstudios.AquaCrops;
+import com.nytstudios.aquatech.init.AquaFoods;
+import com.nytstudios.aquatech.init.AquaSeeds;
 import com.nytstudios.aquatech.init.ModBlocks;
 import com.nytstudios.aquatech.init.ModItems;
 import com.nytstudios.aquatech.proxy.CommonProxy;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -25,6 +29,8 @@ public class AquaTechMain {
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
 
+    public static final CreativeTabs CREATIVE_TAB = new AquaTechTab();
+
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
 
@@ -32,6 +38,13 @@ public class AquaTechMain {
         ModItems.register();
         ModBlocks.init();
         ModBlocks.register();
+        AquaFoods.init();
+        AquaFoods.register();
+        AquaSeeds.init();
+        AquaSeeds.register();
+
+
+
     }
 
     @EventHandler

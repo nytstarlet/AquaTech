@@ -1,5 +1,6 @@
 package com.nytstudios.aquatech.blocks;
 
+import com.nytstudios.aquatech.AquaTechMain;
 import com.nytstudios.aquatech.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -13,5 +14,6 @@ public class BlockCompressedCoralDust extends Block {
         super(Material.SAND);
         setUnlocalizedName(Reference.AquaBlocks.COMPRESSEDCORALDUST.getUnlocalizedName());
         setRegistryName(Reference.AquaBlocks.COMPRESSEDCORALDUST.getRegistryName());
+        setCreativeTab(AquaTechMain.CREATIVE_TAB);
     }
 }
