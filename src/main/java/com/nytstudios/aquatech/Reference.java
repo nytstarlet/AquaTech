@@ -17,7 +17,8 @@ public class Reference {
 
     public static enum AquaItems {
         CORALDUST("coraldust", "ItemCoralDust"),
-        CORALDUSTBLUE("coraldustblue", "ItemCoralDustBlue");
+        CORALDUSTBLUE("coraldustblue", "ItemCoralDustBlue"),
+        CORALCRUSHER("coralcrusher", "CoralCrusher");
 
         private String unlocalizedName;
         private String registryName;
@@ -39,7 +40,8 @@ public class Reference {
 
     public static enum AquaBlocks{
 
-        COMPRESSEDCORALDUST("compressedcoraldust", "BlockCompressedCoralDust");
+        COMPRESSEDCORALDUST("compressedcoraldust", "BlockCompressedCoralDust"),
+        AQUACHEST("aquachest", "AquaChest");
 
 
 

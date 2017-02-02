@@ -14,6 +14,7 @@ public class ItemCoralDustBlue extends Item {
         setUnlocalizedName(Reference.AquaItems.CORALDUSTBLUE.getUnlocalizedName());
         setRegistryName(Reference.AquaItems.CORALDUSTBLUE.getRegistryName());
         setCreativeTab(AquaTechMain.CREATIVE_TAB);
+
     }
 
 }

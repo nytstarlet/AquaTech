@@ -1,7 +1,9 @@
 package com.nytstudios.aquatech.init;
 
 
+import com.nytstudios.aquatech.Reference;
 import com.nytstudios.aquatech.blocks.BlockCompressedCoralDust;
+import com.nytstudios.aquatech.blocks.chests.AquaChest;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -16,9 +18,11 @@ public class ModBlocks {
 
 
     public static Block compressedcoraldust;
+    public static Block aquablocks;
 
     public static  void init(){
         compressedcoraldust = new BlockCompressedCoralDust();
+        aquablocks = new AquaChest();
 
 
     }
@@ -26,6 +30,7 @@ public class ModBlocks {
 
     public static void register(){
        registerBlock(compressedcoraldust);
+       registerBlock(aquablocks);
     }
 
 
@@ -38,6 +43,7 @@ public class ModBlocks {
 
     public static void registerRenders(){
         registerRender(compressedcoraldust);
+        registerRender(aquablocks);
 
     }
 
