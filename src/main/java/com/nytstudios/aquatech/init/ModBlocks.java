@@ -1,9 +1,10 @@
 package com.nytstudios.aquatech.init;
 
 
-import com.nytstudios.aquatech.Reference;
 import com.nytstudios.aquatech.blocks.BlockCompressedCoralDust;
 import com.nytstudios.aquatech.blocks.chests.AquaChest;
+import com.nytstudios.aquatech.blocks.machines.AquaFurnace;
+import com.nytstudios.aquatech.blocks.machines.AquaFurnaceOn;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -19,10 +20,14 @@ public class ModBlocks {
 
     public static Block compressedcoraldust;
     public static Block aquablocks;
+    public static Block aquafurnace;
+    public static Block aquafurnaceon;
 
     public static  void init(){
         compressedcoraldust = new BlockCompressedCoralDust();
         aquablocks = new AquaChest();
+        aquafurnace = new AquaFurnaceOn(false, "aquafurnace");
+        aquafurnaceon = new AquaFurnaceOn(true, "aquafurnaceon");
 
 
     }
@@ -31,6 +36,8 @@ public class ModBlocks {
     public static void register(){
        registerBlock(compressedcoraldust);
        registerBlock(aquablocks);
+
+       registerBlock(aquafurnaceon);
     }
 
 
@@ -44,6 +51,8 @@ public class ModBlocks {
     public static void registerRenders(){
         registerRender(compressedcoraldust);
         registerRender(aquablocks);
+
+        registerRender(aquafurnaceon);
 
     }
 

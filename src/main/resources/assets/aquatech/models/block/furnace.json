@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "aquatech:blocks/furnacetop",
+    "front": "aquatech:blocks/furnaceoff",
+    "side": "aquatech:blocks/furnaceside"
+  }
+}

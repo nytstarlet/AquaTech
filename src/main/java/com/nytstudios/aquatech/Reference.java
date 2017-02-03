@@ -41,7 +41,9 @@ public class Reference {
     public static enum AquaBlocks{
 
         COMPRESSEDCORALDUST("compressedcoraldust", "BlockCompressedCoralDust"),
-        AQUACHEST("aquachest", "AquaChest");
+        AQUACHEST("aquachest", "AquaChest"),
+
+        AQUAFURNACEON("aquafurnaceon", "AquaFurnaceOn");
 
 
 

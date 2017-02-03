@@ -21,6 +21,7 @@ public class ModItems {
     public static Item coralcrusher;
 
 
+
     public static  void init(){
         coraldust = new ItemCoralDust();
         coraldustblue = new ItemCoralDustBlue();

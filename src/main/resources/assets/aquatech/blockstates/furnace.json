@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "aquatech:furnace" },
+    "facing=south": { "model": "aquatech:furnace", "y": 180 },
+    "facing=west":  { "model": "aquatech:furnace", "y": 270 },
+    "facing=east":  { "model": "aquatech:furnace", "y": 90 }
+  }
+}
